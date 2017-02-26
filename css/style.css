@@ -1,0 +1,34 @@
+
+body {
+  margin: 0px;
+  font-family: 'Roboto';
+}
+
+.navbar-default {
+  background-color: white;
+  border: none;
+  color: Black;
+  font-family: 'Lora';
+}
+
+.navbar-right.nav>li>a {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+
+.cuadricula {
+  margin-bottom: 30px;
+}
+
+/****************************** Intro ****************************/
+#intro {
+  	width: 100%;
+  	text-align: center;
+    padding-bottom: 140px;
+}
+
+#intro .title-wrapper {
+  	width: 100%;
+    padding-top: 70px
+}
