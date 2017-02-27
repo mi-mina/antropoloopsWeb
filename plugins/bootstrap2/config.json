@@ -121,7 +121,7 @@
     "@screen-sm": "500px",
     "@screen-sm-min": "@screen-sm",
     "@screen-tablet": "@screen-sm-min",
-    "@screen-md": "750px",
+    "@screen-md": "992px",
     "@screen-md-min": "@screen-md",
     "@screen-desktop": "@screen-md-min",
     "@screen-lg": "1200px",
@@ -132,15 +132,15 @@
     "@screen-md-max": "(@screen-lg-min - 1)",
     "@grid-columns": "12",
     "@grid-gutter-width": "30px",
-    "@grid-float-breakpoint": "@screen-md-min",
+    "@grid-float-breakpoint": "@screen-sm-min",
     "@grid-float-breakpoint-max": "(@grid-float-breakpoint - 1)",
-    "@container-tablet": "(470px + @grid-gutter-width)",
+    "@container-tablet": "(720px + @grid-gutter-width)",
     "@container-sm": "@container-tablet",
-    "@container-desktop": "(720px + @grid-gutter-width)",
+    "@container-desktop": "(940px + @grid-gutter-width)",
     "@container-md": "@container-desktop",
     "@container-large-desktop": "(1140px + @grid-gutter-width)",
     "@container-lg": "@container-large-desktop",
-    "@navbar-height": "40px",
+    "@navbar-height": "50px",
     "@navbar-margin-bottom": "@line-height-computed",
     "@navbar-border-radius": "@border-radius-base",
     "@navbar-padding-horizontal": "floor((@grid-gutter-width / 2))",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=ae9e7cde67551661d6ac1a9955537cba"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=01135ff18dd1a5c18cac1d759291c11c"
 }
