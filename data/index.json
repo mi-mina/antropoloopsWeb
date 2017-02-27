@@ -1,11 +1,7 @@
-{
-  "elements": [
-    {
-      "name": "espacio mutuo",
-      "img": "images/espacio-mutuo.jpg",
-      "href": "",
+[{
+      "title": "Chukotskaya Lights Entering the Place",
+      "img": "../images/chukotskaya.jpg",
+      "href": "../posts/chukotskaya.html",
       "date": "2016-12-23",
-      "tags": []
-    }
-  ]
-}
+      "tag": "song"
+}]
