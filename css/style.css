@@ -1,7 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  margin: 0px;
   font-family: 'Lora';
+}
+
+.en {
+  font-style: italic;
+  color: #a2a3a5;
 }
 
 .navbar-default {
@@ -24,11 +32,65 @@ body {
 #intro {
   	width: 100%;
   	text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 130px;
     margin-top: 40px;
 }
 
 #intro .title-wrapper {
   	width: 100%;
     /*padding-top: 70px*/
+}
+
+#intro .main-title {
+  	font-size: 30px;
+  	/*line-height: 110%;*/
+    margin-bottom: 10px;
+    cursor: default;
+}
+
+#intro .main-subtitle {
+  	font-size: 12px;
+    cursor: default;
+    margin-bottom: 5px;
+}
+
+#intro .en {
+  	font-size: 10px;
+}
+
+
+/********************************* footer *************************************/
+
+footer {
+  background-color: #bfbfbf;
+  color: white;
+  font-size: 12px;
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+}
+
+footer a, footer a:link, footer a:visited, footer a:active {
+  color: #666464;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer .whiteSpace {
+  white-space:pre;
+}
+
+footer .icons {
+  margin-top: 5px;
+}
+
+footer .icons a{
+  padding: 5px;
 }
