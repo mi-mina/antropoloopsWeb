@@ -34,6 +34,7 @@ body {
   	text-align: center;
     padding-bottom: 130px;
     margin-top: 50px;
+    min-height: 100vh;
 }
 
 #intro .main-title {
