@@ -5,6 +5,7 @@
 
 body {
   font-family: 'Lora';
+  font-size: 14px;
 }
 
 .en {
@@ -65,7 +66,8 @@ body {
 
 #content {
   margin-top: 100px;
-  min-height: calc(100vh - 80px - 50px); /* viewport height - footer heigth - margin-top*/
+  min-height: calc(100vh - 80px - 100px); /* viewport height - footer heigth - margin-top*/
+  padding-bottom: 30px;
 }
 
 #content .en {
@@ -79,6 +81,10 @@ body {
 
 #content .bio {
   max-width: 750px;
+}
+
+#content .max600 {
+  max-width: 650px;
 }
 
 #content a, #content a:link,  #content a:active {
