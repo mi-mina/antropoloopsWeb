@@ -8,14 +8,12 @@ body {
 }
 
 .en {
-  font-style: italic;
   color: #a2a3a5;
 }
 
 .navbar-default {
   background-color: white;
   border: none;
-  /*color: Black;*/
 }
 
 .navbar-right.nav>li>a {
@@ -32,13 +30,6 @@ body {
   background-color: transparent;
   color: black;
 }
-
-
-/*.navbar-default .navbar-nav > .active > a {
-  background-color: #96bcdc;
-  color: White;
-}*/
-
 
 .cuadricula {
   margin-bottom: 30px;
@@ -78,13 +69,31 @@ body {
 }
 
 #content .en {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 #content li {
   margin-left: 40px;
   padding-left: 10px;
 }
+
+#content .bio {
+  max-width: 750px;
+}
+
+#content a, #content a:link,  #content a:active {
+  color: #ee920b;
+  text-decoration: none;
+}
+#content a:hover{
+  color: #d608cc !important;
+  text-decoration: none;
+}
+#content a:visited {
+  color: #9d3b0a;
+  text-decoration: none;
+}
+
 
 
 
