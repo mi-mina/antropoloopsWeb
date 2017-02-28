@@ -84,7 +84,11 @@ body {
 }
 
 #content .max600 {
-  max-width: 650px;
+  max-width: 600px;
+}
+
+#content .max750 {
+  max-width: 750px;
 }
 
 #content a, #content a:link,  #content a:active {
