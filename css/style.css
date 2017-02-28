@@ -15,13 +15,29 @@ body {
 .navbar-default {
   background-color: white;
   border: none;
-  color: Black;
+  /*color: Black;*/
 }
 
 .navbar-right.nav>li>a {
   padding-left: 6px;
   padding-right: 6px;
 }
+
+.navbar-left.nav>li>a:hover {
+  font-weight: bold;
+}
+
+.navbar-left.nav>li.active>a, .navbar-left.nav>li.active>a:hover{
+  font-weight: bold;
+  background-color: transparent;
+  color: black;
+}
+
+
+/*.navbar-default .navbar-nav > .active > a {
+  background-color: #96bcdc;
+  color: White;
+}*/
 
 
 .cuadricula {
@@ -53,6 +69,15 @@ body {
 #intro .en {
   	font-size: 10px;
 }
+
+/********************************* content ************************************/
+
+#content {
+  margin-top: 50px;
+  min-height: calc(100vh - 154px - 50px);
+}
+
+
 
 
 /********************************* footer *************************************/

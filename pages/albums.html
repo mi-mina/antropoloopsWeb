@@ -28,16 +28,16 @@
 
   <!-- Bootstrap -->
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
-  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
-  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
 
   <!-- d3 -->
-  <script src="plugins/d3.v4.min.js"></script>
+  <script src="../plugins/d3.v4.min.js"></script>
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
 
 </head>
 
@@ -62,15 +62,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="images/antropoloops_logo.png" alt="antropoloops logo" width='175'></a>
+          <a class="navbar-brand" href="../index.html"><img src="../images/antropoloops_logo.png" alt="antropoloops logo" width='175'></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="nav navbar-nav navbar-left">
-            <li><a id='songs' href="pages/songs.html">Songs</a></li>
-            <li><a id='albums' href="pages/albums.html">Albums</a></li>
-            <li><a id='news' href="pages/news.html">News</a></li>
+            <li><a id='songs' href="songs.html">Songs</a></li>
+            <li class='active'><a id='albums' href="albums.html">Albums</a></li>
+            <li><a id='news' href="news.html">News</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a target="_blank" href="https://soundcloud.com/antropoloops"><span class="fa fa-soundcloud"
@@ -90,18 +90,7 @@
       </div><!-- /.container -->
     </nav>
 
-    <section id='intro'>
-      <div class="container">
-        <img src="images/intro.jpg" alt="antropoloops intro" width="400">
-        <div class="main-title">antropoloops</div>
-        <div class="main-subtitle">Proyecto de remezcla de fragmentos de músicas tradicionales
-          de todo el mundo para crear nuevos collages musicales.</div>
-        <div class="main-subtitle en">Proyecto de remezcla de fragmentos de músicas tradicionales
-          de todo el mundo para crear nuevos collages musicales.</div>
-      </div>
-    </section>
-
-    <section id='content' class='index'>
+    <section id='content' class='albums'>
       <div class="container">
         <div id='items' class='row'>
         </div>
@@ -110,33 +99,32 @@
 
     <footer>
       <div class="container">
-        <div>
-          <span class="whiteSpace"> </span><a href="pages/songs.html" class="whiteSpace">Songs</a><span class="whiteSpace">   ·   </span><a href="pages/albums.html">Albums</a>
-        </div>
-        <div>
-          <a href="pages/news.html">News</a><span class="whiteSpace">   ·   </span><a href="pages/shows.html">Shows</a>
-        </div>
-        <div>
-          <span class="whiteSpace">     </span><a href="pages/info.html" class="whiteSpace">Info</a><span class="whiteSpace">   ·   </span><a href="pages/.contact.html">Contact</a>
-        </div>
-        <div class="icons">
-          <a target="_blank" href="https://soundcloud.com/antropoloops"><span class="fa fa-soundcloud"
-            aria-hidden="true"></span></a>
-          <a target="_blank" href="https://twitter.com/antropoloops/"><span class="fa fa-twitter"
-            aria-hidden="true"></span></a>
-          <a target="_blank" href="https://www.facebook.com/antropoloops"><span class="fa fa-facebook"
-            aria-hidden="true"></span></a>
-          <a target="_blank" href="https://vimeo.com/user27007447"><span class="fa fa-vimeo"
-            aria-hidden="true"></span></a>
-          <a target="_blank" href="https://www.youtube.com/channel/UCluO-GEZ-iPdfCZ4NH4G9Ug"><span class="fa fa-youtube-play"
-            aria-hidden="true"></span></a>
-          <a target="_blank" href="mailto:info@antropoloops.com"><span class="fa fa-envelope-o"
-            aria-hidden="true"></span></a>
-        </div>
+          <div>
+            <span class="whiteSpace"> </span><a href="songs.html" class="whiteSpace">Songs</a><span class="whiteSpace">   ·   </span><a href="albums.html">Albums</a>
+          </div>
+          <div>
+            <a href="news.html">News</a><span class="whiteSpace">   ·   </span><a href="shows.html">Shows</a>
+          </div>
+          <div>
+            <span class="whiteSpace">     </span><a href="info.html" class="whiteSpace">Info</a><span class="whiteSpace">   ·   </span><a href="contact.html">Contact</a>
+          </div>
+          <div class="icons">
+            <a target="_blank" href="https://soundcloud.com/antropoloops"><span class="fa fa-soundcloud"
+              aria-hidden="true"></span></a>
+            <a target="_blank" href="https://twitter.com/antropoloops/"><span class="fa fa-twitter"
+              aria-hidden="true"></span></a>
+            <a target="_blank" href="https://www.facebook.com/antropoloops"><span class="fa fa-facebook"
+              aria-hidden="true"></span></a>
+            <a target="_blank" href="https://vimeo.com/user27007447"><span class="fa fa-vimeo"
+              aria-hidden="true"></span></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCluO-GEZ-iPdfCZ4NH4G9Ug"><span class="fa fa-youtube-play"
+              aria-hidden="true"></span></a>
+            <a target="_blank" href="mailto:info@antropoloops.com"><span class="fa fa-envelope-o"
+              aria-hidden="true"></span></a>
+          </div>
       </div>
     </footer>
-    
     <!-- main script -->
-    <script src="js/main.js"></script>
+    <script src="../js/pages.js"></script>
   </body>
 </html>
