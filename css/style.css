@@ -73,9 +73,22 @@ body {
 /********************************* content ************************************/
 
 #content {
-  margin-top: 50px;
-  min-height: calc(100vh - 154px - 50px);
+  margin-top: 100px;
+  min-height: calc(100vh - 80px - 50px); /* viewport height - footer heigth - margin-top*/
 }
+
+#content .en {
+  font-size: 11px;
+}
+
+#content li {
+  margin-left: 40px;
+  padding-left: 10px;
+}
+
+
+
+
 
 
 
@@ -83,11 +96,11 @@ body {
 /********************************* footer *************************************/
 
 footer {
-  background-color: #bfbfbf;
+  background-color: #dbd9d9;
   color: white;
   font-size: 12px;
   width: 100%;
-  padding: 40px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -98,14 +111,16 @@ footer a, footer a:link, footer a:visited, footer a:active {
 footer a:hover {
   text-decoration: none;
   color: white;
+  font-weight: bold;
 }
 
 footer li {
   list-style: none;
 }
 
-footer .whiteSpace {
+footer .ws {
   white-space:pre;
+  font-weight: bold;
 }
 
 footer .icons {

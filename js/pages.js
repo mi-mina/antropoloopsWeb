@@ -1,8 +1,5 @@
 /* global d3 */
 
-// var date = new Date(Date.parse("2016-12-23"))
-// console.log(date)
-
 var filterBy = d3.select('#content')
   .attr('class')
 
