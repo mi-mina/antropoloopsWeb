@@ -43,6 +43,8 @@ body {
     padding-bottom: 130px;
     margin-top: 50px;
     min-height: 100vh;
+    position: relative;
+    margin-bottom: -100px;
 }
 
 #intro .main-title {
@@ -61,6 +63,22 @@ body {
 #intro .en {
   	font-size: 10px;
 }
+
+#intro:before {
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+  height: 100%;
+}
+
+#intro .intro {
+    display: inline-block;
+    vertical-align: middle;  /* vertical alignment of the inline element */
+
+}
+
+
+
 
 /********************************* content ************************************/
 

@@ -32,7 +32,6 @@ d3.json('data/index.json', function (error, data) {
   info
     .append('p')
 
-
   info
     .append('p')
     .attr('class', 'tag')
