@@ -31,6 +31,10 @@ d3.json('data/index.json', function (error, data) {
 
   info
     .append('p')
+
+
+  info
+    .append('p')
     .attr('class', 'tag')
     .text(function (d) { return d.tag })
   info
@@ -45,14 +49,12 @@ d3.json('data/index.json', function (error, data) {
 
 function formatDate (dateString) {
   var monthNames = [ 'January', 'February', 'March', 'April', 'May', 'June',
-  'July', 'August', 'September', 'October', 'November', 'December'
-]
+  'July', 'August', 'September', 'October', 'November', 'December']
 
   var date = new Date(dateString)
   var day = date.getDate()
   var monthIndex = date.getMonth()
   var year = date.getFullYear()
-  console.log(day + ' ' + monthNames[monthIndex] + ' ' + year)
 
   return day + ' ' + monthNames[monthIndex] + ' ' + year
 }
