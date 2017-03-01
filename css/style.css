@@ -104,6 +104,58 @@ body {
   text-decoration: none;
 }
 
+#content h2 {
+  margin-bottom: 40px;
+}
+
+/* hover over images show text*/
+
+#content .items {
+  position: relative;
+}
+
+#content .imgTitle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 15px 30px 15px;
+  padding: 10px;
+  background: rgba(238, 146, 11, 0.80);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+#content .items:hover .imgTitle {
+  visibility: visible;
+  opacity: 1;
+}
+
+#content .tag {
+  top: 20px;
+  border: 1px solid white;
+  display: inline;
+  padding: 5px;
+}
+
+#content .title {
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+#content .date {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+
+
 
 
 
