@@ -33,17 +33,17 @@ body {
 }
 
 .cuadricula {
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 /****************************** Intro ****************************/
 #intro {
   	width: 100%;
   	text-align: center;
-    padding-bottom: 130px;
+    /*padding-bottom: 130px;*/
     margin-top: 50px;
     min-height: 100vh;
-    position: relative;
+    /*position: relative;*/
     margin-bottom: -100px;
 }
 
@@ -64,10 +64,14 @@ body {
   	font-size: 10px;
 }
 
-#intro:before {
+#intro .centerContainer:before {
   content: ' ';
   display: inline-block;
   vertical-align: middle;  /* vertical alignment of the inline element */
+  height: 100%;
+}
+
+#intro .centerContainer {
   height: 100%;
 }
 
@@ -138,7 +142,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  margin: 0 15px 30px 15px;
+  margin: 30px 15px 0 15px;
   padding: 10px;
   background: rgba(238, 146, 11, 0.80);
   color: #fff;
