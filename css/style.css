@@ -92,6 +92,11 @@ body {
   padding-bottom: 30px;
 }
 
+#content.shows {
+  margin-top: 40px;
+  min-height: calc(100vh - 80px - 40px); /* viewport height - footer heigth - margin-top*/
+}
+
 #content .en {
   font-size: 12px;
 }
@@ -117,7 +122,7 @@ body {
   color: #ee920b;
   text-decoration: none;
 }
-#content a:hover{
+#content a:hover {
   color: #d608cc !important;
   text-decoration: none;
 }
@@ -128,6 +133,13 @@ body {
 
 #content h2 {
   margin-bottom: 40px;
+}
+
+#content a.carousel-control, a.carousel-control:link, a.carousel-control:active, a.carousel-control:visited {
+  color: white;
+}
+#content a.carousel-control:hover {
+  color: white !important;
 }
 
 /* hover over images show text*/
